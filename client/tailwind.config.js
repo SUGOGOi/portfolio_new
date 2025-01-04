@@ -24,8 +24,8 @@ export default {
       },
       keyframes: {
         glow: {
-          "0%, 100%": { boxShadow: "0 0 32px 16px rgba(59, 130, 246, 0.8)" }, // Wider and softer blue glow
-          "50%": { boxShadow: "0 0 48px 24px rgba(59, 130, 246, 1)" }, // Larger glow at 50%
+          "0%, 100%": { boxShadow: "0 0 16px 8px rgba(59, 130, 246, 0.8)" }, // Wider blue glow
+          "50%": { boxShadow: "0 0 24px 12px rgba(59, 130, 246, 1)" }, // Larger glow at 50%
         },
       },
     },
