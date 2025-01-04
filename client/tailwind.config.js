@@ -20,7 +20,7 @@ export default {
           "radial-gradient(circle at center, var(--tw-gradient-stops))",
       },
       animation: {
-        glow: "glow 1.5s infinite",
+        glow: "glow 2.5s infinite",
       },
       keyframes: {
         glow: {
