@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { Container } from "./ui/Container";
 import { SectionTitle } from "./ui/SectionTitle";
+import "./ui/footer.scss";
 
 export const Contact = () => {
   return (

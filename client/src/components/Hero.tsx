@@ -68,7 +68,7 @@ export const Hero = () => {
               },
               {
                 icon: ArrowDownToLine,
-                href: "sumsumgogoi51@gmail.com",
+                href: "https://res.cloudinary.com/dikx4aj2f/image/upload/v1736177171/SumsumGogoi_yzvmum.pdf",
                 label: "Resume",
               },
             ].map((social, index) => (
