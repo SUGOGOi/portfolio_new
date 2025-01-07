@@ -30,7 +30,7 @@ export default function Preloader() {
       () => {
         setIndex(index + 1);
       },
-      index == 0 ? 1000 : 200
+      index == 0 ? 1000 : 150
     );
   }, [index]);
 
