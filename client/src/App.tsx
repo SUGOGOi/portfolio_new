@@ -6,6 +6,7 @@ import { Contact } from "./components/Contact";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import Preloader from "./components/Preloader";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,18 +22,21 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-dark-darker min-h-screen bg-gradient-radial from-dark-darker via-dark to-transparent overflow-x-hidden ">
-      <AnimatePresence mode="wait">
-        {isLoading && <Preloader />}
-      </AnimatePresence>
-      <div className="relative">
-        <Hero />
-        <Projects />
-        <Skills />
-        <Timeline />
-        <Contact />
+    <>
+      <div className="bg-dark-darker min-h-screen bg-gradient-radial from-dark-darker via-dark to-transparent overflow-x-hidden ">
+        <AnimatePresence mode="wait">
+          {isLoading && <Preloader />}
+        </AnimatePresence>
+        <div className="relative">
+          <Hero />
+          <Projects />
+          <Skills />
+          <Timeline />
+          <Contact />
+        </div>
       </div>
-    </div>
+      <Toaster position="top-center" />
+    </>
   );
 }
 
