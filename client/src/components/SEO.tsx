@@ -14,7 +14,7 @@ const SEO: React.FC<{ title: string; description: string[] }> = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="google-site-verification"
-        content="kV29s9uC13ZzLb_NCOYFa1gmFeVpLG5HaQ5wJR3glDU"
+        content="mwJ0olWLgtdSYhxJBtuO-GYQCi4vsHs5wId-DwEh30c"
       />
     </Helmet>
   );
