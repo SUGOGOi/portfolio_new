@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: "E-Voting System Blockchain",
-    description: "Online voting system using solidity(smart contract)",
+    description: "Online voting system using Solana Blockchain",
     image:
       "https://res.cloudinary.com/dikx4aj2f/image/upload/v1735990116/evote_p1jkwt.jpg",
     github: "https://github.com/SUGOGOi/E_Voting_System_blockchain",
