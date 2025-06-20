@@ -26,7 +26,8 @@ jobs:
       - name: 📦 Build & Push Image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./client
+          file: ./client/Dockerfile
           push: true
           tags: sugogoi/react-portfolio:latest
 
