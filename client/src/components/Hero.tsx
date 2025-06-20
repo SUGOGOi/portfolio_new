@@ -32,7 +32,7 @@ export const Hero = () => {
             transition={{ delay: 0.3 }}
             className="text-5xl md:text-7xl font-bold text-white mb-6"
           >
-            Sumsum Gogo!
+            Sumsum Gogoi
           </motion.h1>
 
           <motion.div
