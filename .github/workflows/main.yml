@@ -33,6 +33,7 @@ jobs:
 
   deploy:
     name: 🚀 Deploy on EC2
+    needs: build
     runs-on: self-hosted
     steps:
       - name: pull image from dockerhub
