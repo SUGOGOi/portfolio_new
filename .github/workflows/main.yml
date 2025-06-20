@@ -40,4 +40,4 @@ jobs:
       - name: delete old container
         run: docker rm -f react-portfolio-container
       - name: run docker container
-        run: docker run -d -p 4173:80 --name react-portfolio-container ${{ secrets.DOCKER_USERNAME }}/react-portfolio
+        run: docker run -d -p 80:80 --name react-portfolio-container sugogoi/react-portfolio
