@@ -68,7 +68,9 @@ export const Hero = () => {
               },
               {
                 icon: ArrowDownToLine,
-                href: "https://res.cloudinary.com/dikx4aj2f/image/upload/v1750443454/SUMSUM_RESUME_1_j39ugo.pdf",
+                // href: "https://res.cloudinary.com/dikx4aj2f/image/upload/v1736177171/SumsumGogoi_yzvmum.pdf",
+                // href: "https://res.cloudinary.com/dikx4aj2f/image/upload/v1749624190/SUMSUM_RESUME_reormh.pdf",
+                href: "https://res.cloudinary.com/dikx4aj2f/image/upload/v1750439240/SUMSUM_RESUME_1_ax7ywa.pdf",
                 label: "Resume",
               },
             ].map((social, index) => (
