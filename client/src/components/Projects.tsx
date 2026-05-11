@@ -5,12 +5,20 @@ import { SectionTitle } from "./ui/SectionTitle";
 
 const projects = [
   {
+    title: "TAT-HAL",
+    description:
+      "Tathal is a full-stack e-commerce platform specializing in traditional Northeast Indian ethnic wear.",
+    image:
+      "https://res.cloudinary.com/dikx4aj2f/image/upload/v1778523217/Screenshot_2026-05-11_234303_kvmaym.png",
+    live: "https://tathal.com",
+    tags: ["Nextjs", "Express", "Postgresql", "Hostinger", "Docker"],
+  },
+  {
     title: "E-Learning Platform",
     description: "A full-stack e-learning platform using MERN and cloudinary",
     image:
       "https://res.cloudinary.com/dikx4aj2f/image/upload/v1735988965/eLeaning_kjqxcv.png",
     github: "https://github.com/SUGOGOi/frontend_ccsa",
-    live: "https://frontend-ccsa.vercel.app/",
     tags: ["React", "Express", "MongoDB", "Redux", "Cloudinary"],
   },
   {
