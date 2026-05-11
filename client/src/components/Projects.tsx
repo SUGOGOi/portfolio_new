@@ -53,7 +53,7 @@ export const Projects = () => {
       <div className="absolute inset-0 bg-gradient-radial from-dark-darker via-dark to-transparent opacity-90 z-[-1]" />
       <Container>
         <SectionTitle
-          title="Featured Projects"
+          title="Project Experience"
           subtitle="Explore some of my recent work and technical achievements"
         />
 
